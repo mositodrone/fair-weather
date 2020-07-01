@@ -1,0 +1,31 @@
+.footer-links img {
+	padding: 5px;
+}
+
+.ptc {
+	display: flex;
+	margin-bottom: -20px; 
+	text-align: center;
+	border: 1px solid rgb(204, 204, 204);
+	background-color: rgb(204, 204, 204);
+}
+
+.ptc li a{
+  font : bold 120% / 1.9 'Arial, Helvetica', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left:  auto;
+  box-sizing: border-box;
+  color: rgba(100, 100, 100, 0.9);
+  grid-template-columns: 1fr 2fr ;
+  grid-template-rows: 1fr 1fr;
+  padding: 10px ; 
+}
+
+.ptc li a:hover {
+	color: firebrick;
+}
+
+.links {
+	cursor: pointer;
+}

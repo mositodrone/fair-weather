@@ -1,0 +1,121 @@
+/*i used this incase i needed to ad more cards */
+.All-cards {
+	border-top: 1px solid blue;
+	text-align: center;
+	display: flex;
+    overflow-x: scroll;
+}
+/*this controls the styling of all the cards*/
+.weatherCard {
+ 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	background-origin: content-box;
+}
+
+@media only screen and (max-width: 500px) {
+	.guide {
+		display: block;
+	}
+	.weatherCard {
+        padding: 0; 
+		width: 100%;
+	}
+	.weatherInfo {
+		padding-left: -12px;
+		width: 50%;
+	}
+    .object{
+        
+    }
+    .params {
+        width: 70%;
+        margin-left: -20px !important;
+    } 
+}
+
+.card-name {
+	font-family: showcard gothic;
+	outline-color: blue;
+}
+
+ /*weather params label*/
+ .weatherInfo {
+	display: flex;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	overflow-x: scroll;
+    background: linear-gradient(to right, turquoise, orange)
+/*	align-content: start;*/
+}
+ 
+.object {
+	margin-top: 35px;
+	padding: 20px;
+    font-family:'snap ITC';
+    height: auto;
+	width: 200px;
+	list-style: none;
+}
+
+.object li {
+	cursor: pointer;
+	padding: 5px;
+	padding-bottom: 18px;
+}
+
+.params {
+	margin-top: auto; 
+    width: 250px;
+	height: auto;
+	padding: 10px;
+	border-radius: 10px; 
+/*	align-content: end;*/
+}
+
+@media only screen and (max-width: 1030px) {
+/*	   .weatherInfo {
+		display: flex;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+	} */
+	.params {
+		margin: 0 auto;
+	} 
+}
+
+
+@media only screen and (max-width: 360px) {
+	/*.params {
+		width: 70%;
+	}*/
+}
+
+
+
+.form-check-label {
+  margin-bottom: 0;
+}
+
+.params li {
+	padding: 10px;
+	list-style: none;
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+.info {
+/*	margin-left: -180px;*/
+margin-left: auto;
+border: 1px solid black;
+margin-top: 50px;
+border-radius: 4px;
+background-color: lightblue;
+padding: 20px;
+
+}

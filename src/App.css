@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration:  none;
+  cursor: pointer;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.top {
+	display: flex;
+}
+
+.btn {
+   cursor: pointer;
+}
+
+.side {
+  position: relative;
+  padding: 0px 0px 0px 5px;
+  top: 30%;
+  left: -20px;
+  width: 300px; 
+  -webkit-transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 500px) {
+  .side {
+    width: 200px;
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+   .side {
+    width: 200px; 
+   }
+}
+
+.side .side-content {
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 25px;
+  margin-bottom: 8px;
+  width: 100%;
+  -webkit-transition: all 250ms;
+ }
+
+ .side-content:hover {
+  padding: 15px 20px;
+  width: 120%;
+  margin-left: 20px;
+  color: gold;
+  background-color: rgba(52, 56, 56, 0.2);
+} 
+
+
+.side-content:visited {
+	color: white;
+}
+
+.weather {
+	overflow-x: scroll;
+}
